@@ -1,13 +1,20 @@
 $scoreboard players set level terf_states $(level)
+# Level 0: Normal
+# Level 1: Attention - Positive
+# Level 2: Attention - Negative
+# Level 3: Urgent
+# Level 4: High Level - No sound
+# Level 5: High Level - With sound
 $execute if score level terf_states matches 0 run tellraw @a[distance=0..] ["",{"text":"["},{"text":"DEM","color":"blue"},{"text":"] > "},$(text)]
-$execute if score level terf_states matches 1 run tellraw @a[distance=0..] ["",{"text":"["},{"text":"DEM","color":"blue"},{"text":" | "},{"text":"ATTENTION","color":"aqua"},{"text":"] > "},$(text)]
-$execute if score level terf_states matches 2 run tellraw @a[distance=0..] ["",{"text":"["},{"text":"DEM","color":"blue"},{"text":" | "},{"text":"URGENT","color":"yellow"},{"text":"] > "},$(text)]
-$execute if score level terf_states matches 3 run tellraw @a[distance=0..] ["",{"text":"["},{"text":"DEM","color":"blue"},{"text":" | "},{"text":"HIGH LEVEL","color":"red"},{"text":"] > "},$(text)]
+$execute if score level terf_states matches 1..2 run tellraw @a[distance=0..] ["",{"text":"["},{"text":"DEM","color":"blue"},{"text":" | "},{"text":"ATTENTION","color":"aqua"},{"text":"] > "},$(text)]
+$execute if score level terf_states matches 3 run tellraw @a[distance=0..] ["",{"text":"["},{"text":"DEM","color":"blue"},{"text":" | "},{"text":"URGENT","color":"yellow"},{"text":"] > "},$(text)]
+$execute if score level terf_states matches 4..5 run tellraw @a[distance=0..] ["",{"text":"["},{"text":"DEM","color":"blue"},{"text":" | "},{"text":"HIGH LEVEL","color":"red"},{"text":"] > "},$(text)]
 
 execute if score level terf_states matches 0 run playsound terf:dem.notification ambient @a[distance=0..] ~ ~ ~ 8 1
-execute if score level terf_states matches 1 run playsound terf:dem.notification ambient @a[distance=0..] ~ ~ ~ 8 1
-execute if score level terf_states matches 2 run playsound terf:dem.notification ambient @a[distance=0..] ~ ~ ~ 8 1
-execute if score level terf_states matches 3 run playsound terf:dem.notification ambient @a[distance=0..] ~ ~ ~ 8 2
+execute if score level terf_states matches 1 run playsound terf:dem.notification_2 ambient @a[distance=0..] ~ ~ ~ 8 1
+execute if score level terf_states matches 3 run playsound terf:dem.notification_3 ambient @a[distance=0..] ~ ~ ~ 8 1
+execute if score level terf_states matches 2 run playsound terf:dem.notification_4 ambient @a[distance=0..] ~ ~ ~ 8 1
+execute if score level terf_states matches 5 run playsound terf:dem.notification_5 ambient @a[distance=0..] ~ ~ ~ 8 1
 
 # Plays voicelines, not needed for DEM.
 # stopsound @a[distance=..128] voice
