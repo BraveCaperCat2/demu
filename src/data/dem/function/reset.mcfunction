@@ -61,4 +61,4 @@ stopsound @a master terf:dem.demboom
 stopsound @a ambient terf:explosion.thunder
 
 # Broadcast (styled like dem_broadcasts.txt)
-tellraw @a ["",{"text":":dem_os: ","color":"black"},{"text":"[DEM] » "},{"text":"DEM reset complete.","color":"#ffD090"}]
+function dem:broadcast {"text":"{\"text\":\"DEM reset complete.\",\"color":\"#FFD090\"}", "level":0}

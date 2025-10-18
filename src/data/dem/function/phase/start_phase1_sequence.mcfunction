@@ -2,7 +2,7 @@
 function dem:phase/stop_all
 
 playsound terf:dem.notification_4 ambient @a ~ ~ ~ 1 1 1
-tellraw @a ["",{"text":":dem_os: ","color":"black"},{"text":"[DEM] » "},{"text":"Severe accretion disk instability detected.","color":"#ffD090"}]
+function dem:broadcast {"text":"{\"text\":\"Severe accretion disk instability detected.\",\"color\":\"#ffD090\"}", "level":0}
 
 # Start Berserker track on music channel for all players, force audibility
 playsound terf:music.battlejuice_berserker music @a ~ ~ ~ 1 1 1

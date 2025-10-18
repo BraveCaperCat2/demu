@@ -7,5 +7,6 @@ scoreboard objectives add dem.phase_timer dummy
 scoreboard objectives add dem.mass dummy
 scoreboard objectives add dem.ambient_loops dummy
 scoreboard players set @a dem.trigger 0
-tellraw @a ["",{"text":":dem_os: ","color":"black"},{"text":"["},{"text":"SYSTEM","color":"light_purple"},{"text":"] "},{"text":"Dark Energy Manipulator datapack initialized.","color":"dark_purple"}]
 
+#broadcast loaded message
+execute unless score no_load_message terf_states matches 1 run tellraw @a ["",{"text":"["},{"text":"S","color":"red"},{"text":"Y","color":"gold"},{"text":"S","color":"yellow"},{"text":"T","color":"green"},{"text":"E","color":"aqua"},{"text":"M","color":"green"},{"text":"] Dark Energy Manipulator datapack loaded!"}]

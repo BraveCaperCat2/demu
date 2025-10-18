@@ -2,7 +2,7 @@
 function dem:phase/stop_all
 
 # Broadcast (styled like dem_broadcasts.txt)
-tellraw @a ["",{"text":":dem_os: ","color":"black"},{"text":"[DEM] » "},{"text":"The underworld city holds its breath...","color":"#ffD090"}]
+function dem:broadcast {"text":"{\"text\":\"The underworld city holds its breath...\",\"color\":\"#ffD090\"}", "level":0}
 
 # Start lullaby (2m03s = 2460t) on music channel for all players, force audibility
 playsound terf:music.battlejuice_underworld_city_lullaby music @a ~ ~ ~ 1 1 1

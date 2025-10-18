@@ -9,10 +9,10 @@ execute as @a at @s run particle ash ~ ~ ~ 50 50 50 0.02 90 force
 execute positioned 56.528 133 118.476 run particle ash ~ ~ ~ 60 30 60 0.02 120 force
 
 # Cinematic broadcast pulses from dem_broadcasts.txt style (every ~20s)
-execute if score #dem dem.phase_timer matches 400..400 run tellraw @a ["",{"text":":dem_os: ","color":"black"},{"text":"[DEM] » "},{"text":"Stabilizer D-E Engaging!","color":"#ffD090"}]
-execute if score #dem dem.phase_timer matches 800..800 run tellraw @a ["",{"text":":dem_os: ","color":"black"},{"text":"[DEM] » "},{"text":"Stabilizer D-W Engaging!","color":"#ffD090"}]
-execute if score #dem dem.phase_timer matches 1200..1200 run tellraw @a ["",{"text":":dem_os: ","color":"black"},{"text":"[DEM] » "},{"text":"Stabilizer D-N Engaging!","color":"#ffD090"}]
-execute if score #dem dem.phase_timer matches 1600..1600 run tellraw @a ["",{"text":":dem_os: ","color":"black"},{"text":"[DEM] » "},{"text":"Stabilizer D-S Engaging!","color":"#ffD090"}]
+execute if score #dem dem.phase_timer matches 400..400 run function dem:broadcast {"text":"{\"text\":\"Stabilizer D-E Engaging!\",\"color\":\"#ffD090\"}",level:0}
+execute if score #dem dem.phase_timer matches 800..800 run function dem:broadcast {"text":"{\"text\":\"Stabilizer D-W Engaging!\",\"color\":\"#ffD090\"}",level:0}
+execute if score #dem dem.phase_timer matches 1200..1200 run function dem:broadcast {"text":"{\"text\":\"Stabilizer D-N Engaging!\",\"color\":\"#ffD090\"}",level:0}
+execute if score #dem dem.phase_timer matches 1600..1600 run function dem:broadcast {"text":"{\"text\":\"Stabilizer D-S Engaging!\",\"color\":\"#ffD090\"}",level:0}
 
 # Loop every tick for smooth effect
 schedule function dem:phase/tick_phase1 1t replace
