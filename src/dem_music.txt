@@ -1,0 +1,45 @@
+DEM MUSIC PLAN
+
+Fill these once resources are added (sound event IDs and file paths):
+
+1) Boot/Startup
+- sound_event: terf:music.vladmsorensen_nuclear_midnight
+- file_path:
+- loop: no/yes
+- trigger: dem:startup/start
+
+2) Formation (charging/build-up)
+ - sound_event: terf:music.joel_nielsen_the_hunting (beginning of phase 2)
+- file_path:
+- loop: yes
+- trigger: during dem:startup/step until singularity forms
+
+3) Singularity Formed (idle)
+- sound_event: terf:music.joel_nielsen_resonance
+- file_path:
+- loop: yes
+- trigger: on dem:startup/finish; stop on shutdown/overload
+
+4) Overload/Ramp
+ - sound_event: terf:dem.overload_loop (crazy mode loop)
+- file_path:
+- loop: yes
+- trigger: on overload state; stop on shutdown/failure
+
+5) Shutdown (cooldown)
+ - sound_event: terf:dem.metal (after phase 2 ends)
+- file_path:
+- loop: no
+- trigger: on shutdown start
+
+6) Failure/Quench (alarm)
+ - sound_event: terf:dem.overload_end (final surge), then terf:dem.demboom
+- file_path:
+- loop: yes
+- trigger: on failure; stop on manual reset
+
+7) Ambient near DEM
+- sound_event: terf:dem.ambient_loop
+- file_path:
+- loop: yes
+- trigger: proximity loop around tag=dem_blackhole

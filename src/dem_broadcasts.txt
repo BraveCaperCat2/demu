@@ -1,0 +1,181 @@
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser E_D-" }, { "color": "#ffD090", "text": "Vitals" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser W_D-" }, { "color": "#ffD090", "text": "Vitals" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser N_D-" }, { "color": "#ffD090", "text": "Vitals" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser S_D-" }, { "color": "#ffD090", "text": "Vitals" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser E_U-" }, { "color": "#ffD090", "text": "Vitals" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser W_U-" }, { "color": "#ffD090", "text": "Vitals" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser N_U-" }, { "color": "#ffD090", "text": "Vitals" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser S_U-" }, { "color": "#ffD090", "text": "Vitals" }, { "color": "#ff9090", "text": " damage detected!" }]
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Energy Collector " }, { "color": "#ffD090", "text": "D-SE" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Energy Collector " }, { "color": "#ffD090", "text": "D-SW" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Energy Collector " }, { "color": "#ffD090", "text": "D-NE" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Energy Collector " }, { "color": "#ffD090", "text": "D-NW" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Energy Collector " }, { "color": "#ffD090", "text": "U-SE" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Energy Collector " }, { "color": "#ffD090", "text": "U-SW" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Energy Collector " }, { "color": "#ffD090", "text": "U-NE" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Energy Collector " }, { "color": "#ffD090", "text": "U-NW" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{color:"#ff5050",text:"Major damage sustained by non-critical Horizon Scrubber systems. Immediate repair is recommended to prevent further failures."}]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"Critical stress levels detected on Gravitational Shielding. Ongoing degradation in field stability detected."}]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser E_D-" }, { "color": "#ffD090", "text": "Coil" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser W_D-" }, { "color": "#ffD090", "text": "Coil" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser N_D-" }, { "color": "#ffD090", "text": "Coil" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser S_D-" }, { "color": "#ffD090", "text": "Coil" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser E_U-" }, { "color": "#ffD090", "text": "Coil" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser W_U-" }, { "color": "#ffD090", "text": "Coil" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser N_U-" }, { "color": "#ffD090", "text": "Coil" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{ "color": "#ff9090", "text": "Power laser S_U-" }, { "color": "#ffD090", "text": "Coil" }, { "color": "#ff9090", "text": " damage detected!" }]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"Error: Gravitational shielding data unavailable: Critical sensor array failure detected. Core systems have transitioned to gravitational shielding insustainability protocol."}]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"Core Rotational Velocity measurement failure: current levels exceed sensor calibration range."}]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"Reactor chamber experiencing extreme gravitational fluctuations. Emergency procedures required! Commence protocol sequence now."}]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"EMR flux measurement failure: current levels exceed sensor calibration range."}]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"Electromagnetic flux control failure detected. Reactor chamber experiencing extreme radiation exposure."}]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"Gravitational shielding has failed to contain singularity boundary. Ergosphere now extending beyond reactor chamber limits."}]
+
+:dem_os: [DEM] » [{color:"#ff9090",text:"Horizon Scrubber temperatures exceeding safe operating parameters"}]
+
+:dem_os: [DEM] » [{color:"#ff5050",text:"Horizon Scrubber temperatures critical! Horizon scrubber structural integrity degradation may occour."}]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"Total system failure. Large electromagnetic interference detected in all systems."}]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"All attempts of sustaining the EMR shield have failed. A complete EMR shield breach is expected to occur in T-30 seconds."}]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"Large elecromagnetic explosion detected within reactor chamber. Connection to vital reactor systems have been lost. A code black is now in effect."}]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-E Coil #1 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-W Coil #1 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-N Coil #1 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-S Coil #1 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-E Coil #1 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-W Coil #1 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-N Coil #1 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-S Coil #1 Damage Detected!" }]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"Multiple critical faults detected in vital Horizon Scrubber components. Significant atmospheric breach into gravitational shield layer. Accretion disc saturation rising rapidly!"}]
+
+:dem_os: [DEM] » [{ "color": "red", "text": "Stabilizer D-E Rotor #1 Damage Critical!" }]
+
+:dem_os: [DEM] » [{ "color": "red", "text": "Stabilizer D-W Rotor #1 Damage Critical!" }]
+
+:dem_os: [DEM] » [{ "color": "red", "text": "Stabilizer D-N Rotor #1 Damage Critical!" }]
+
+:dem_os: [DEM] » [{ "color": "red", "text": "Stabilizer D-S Rotor #1 Damage Critical!" }]
+
+:dem_os: [DEM] » [{ "color": "red", "text": "Stabilizer U-E Rotor #1 Damage Critical!" }]
+
+:dem_os: [DEM] » [{ "color": "red", "text": "Stabilizer U-W Rotor #1 Damage Critical!" }]
+
+:dem_os: [DEM] » [{ "color": "red", "text": "Stabilizer U-N Rotor #1 Damage Critical!" }]
+
+:dem_os: [DEM] » [{ "color": "red", "text": "Stabilizer U-S Rotor #1 Damage Critical!" }]
+
+:dem_os: [DEM] » [{color:"#ff4040",text:"Hawking radiation wavelength exponentially increasing. Last recorded unamplified mass of black hole (146.000kg) would convert into the force of ~31,000,000 megatons of tnt."}]
+
+:dem_os: [DEM] » [[{ "text": "Stabilizer D-E Engaging! " }, { "color": "#0099ff", "score": { "name": "calc", "objective": "terf_states" } }, { "color": "#0099ff", "text": "/8" }]]
+
+:dem_os: [DEM] » [[{ "text": "Stabilizer D-W Engaging! " }, { "color": "#0099ff", "score": { "name": "calc", "objective": "terf_states" } }, { "color": "#0099ff", "text": "/8" }]]
+
+:dem_os: [DEM] » [[{ "text": "Stabilizer D-N Engaging! " }, { "color": "#0099ff", "score": { "name": "calc", "objective": "terf_states" } }, { "color": "#0099ff", "text": "/8" }]]
+
+:dem_os: [DEM] » [[{ "text": "Stabilizer D-S Engaging! " }, { "color": "#0099ff", "score": { "name": "calc", "objective": "terf_states" } }, { "color": "#0099ff", "text": "/8" }]]
+
+:dem_os: [DEM] » [[{ "text": "Stabilizer U-E Engaging! " }, { "color": "#0099ff", "score": { "name": "calc", "objective": "terf_states" } }, { "color": "#0099ff", "text": "/8" }]]
+
+:dem_os: [DEM] » [[{ "text": "Stabilizer U-W Engaging! " }, { "color": "#0099ff", "score": { "name": "calc", "objective": "terf_states" } }, { "color": "#0099ff", "text": "/8" }]]
+
+:dem_os: [DEM] » [[{ "text": "Stabilizer U-N Engaging! " }, { "color": "#0099ff", "score": { "name": "calc", "objective": "terf_states" } }, { "color": "#0099ff", "text": "/8" }]]
+
+:dem_os: [DEM] » [[{ "text": "Stabilizer U-S Engaging! " }, { "color": "#0099ff", "score": { "name": "calc", "objective": "terf_states" } }, { "color": "#0099ff", "text": "/8" }]]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-E Coil #1 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-E Coil #2 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-E Coil #3 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-E Coil #4 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-E Coil #5 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-E Coil #6 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-W Coil #1 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-W Coil #2 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-W Coil #3 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-W Coil #4 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-W Coil #5 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-W Coil #6 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-N Coil #1 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-N Coil #2 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-N Coil #3 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-N Coil #4 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-N Coil #5 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-N Coil #6 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-S Coil #1 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-S Coil #2 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-S Coil #3 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-S Coil #4 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-S Coil #5 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer D-S Coil #6 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-E Coil #1 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-E Coil #2 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-E Coil #3 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-E Coil #4 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-E Coil #5 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-E Coil #6 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-W Coil #1 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-W Coil #2 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-W Coil #3 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-W Coil #4 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-W Coil #5 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-W Coil #6 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-N Coil #1 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-N Coil #2 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-N Coil #3 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-N Coil #4 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-N Coil #5 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-N Coil #6 Damage Detected!" }]
+
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-S Coil #1 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-S Coil #2 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-S Coil #3 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-S Coil #4 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-S Coil #5 Damage Detected!" }]
+:dem_os: [DEM] » [{ "color": "gold", "text": "Stabilizer U-S Coil #6 Damage Detected!" }]
+
