@@ -37,5 +37,5 @@ execute if score #dem dem.timer matches 80 run function dem:blackhole/summon
 execute if score #dem dem.timer matches 80 run function dem:startup/finish
 
 # Continue scheduling until finish, fast tick
-execute unless score #dem dem.state matches 0 run schedule function dem:startup/step 5t replace
+execute unless score #dem dem.state matches 0 run schedule function dem:startup/step 1t replace
 

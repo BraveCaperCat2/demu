@@ -62,3 +62,5 @@ stopsound @a ambient terf:explosion.thunder
 
 # Broadcast (styled like dem_broadcasts.txt)
 function dem:broadcast {"text":"{\"text\":\"DEM reset complete.\",\"color\":\"#FFD090\"}", "level":0}
+
+function dem:phase/stop_all
