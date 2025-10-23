@@ -9,7 +9,7 @@ Fill these once resources are added (sound event IDs and file paths):
 - trigger: dem:startup/start
 
 2) Formation (charging/build-up)
- - sound_event: terf:music.joel_nielsen_the_hunting (beginning of phase 2)
+ - sound_event: terf:music.joel_nielsen_the_hunting (beginning of phase 2) <-- WILT wITH PHASE 2 MELT BEING CHARGING
 - file_path:
 - loop: yes
 - trigger: during dem:startup/step until singularity forms
